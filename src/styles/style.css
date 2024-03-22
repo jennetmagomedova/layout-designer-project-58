@@ -1,7 +1,37 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
-
-  color: #fff;
+:root {
+  --white: #fff;
+  --white-semitransparent: #d7ccc0;
+  --light: #f5f4f0;
+  --primary-color: #fe8a02;
+  --primary-dark: #42413c;
+  --dark: #2a2626;
+  --dark-semitransparent: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+h1, h2, h3 {
+  font-family: 'Neucha', serif;
+}
+
+h1 {
+  size: 72px;
+}
+
+h2 {
+  size: 60px;
+}
+
+h3 {
+  size: 34px;
+}
+
