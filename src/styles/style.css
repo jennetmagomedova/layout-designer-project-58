@@ -34,10 +34,6 @@ body {
   margin: 0;
 }
 
-body > * {
-  padding: 100px 165px;
-}
-
 h1, h2, h3 {
   font-family: 'Neucha', cursive;
   font-weight: 400;
@@ -82,6 +78,7 @@ h3 {
 
 header {
   position: relative;
+  padding: 100px 165px;
 }
 
 header img {
@@ -119,8 +116,13 @@ header img {
   margin-top: 20px;
 }
 
+main > * {
+  padding: 100px 165px;
+}
+
 .video-section {
   text-align: center;
+  height: 614px;
 }
 
 .video-section p {
@@ -129,4 +131,52 @@ header img {
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.navigation-section {
+  background-color: var(--primary-dark);
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 691px;
+}
+
+.navigation-section-header {
+  font-size: 52px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-card {
+  width: 350px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.link-card {
+  height: auto;
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.navigation-number {
+  padding-bottom: 40px;
+  font-size: 64px;
+  font-family: 'Neucha', cursive;
+  line-height: 1;
+  margin: 0;
+}
+
+.link-card a {
+  text-decoration: none;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.navigation-text {
+  margin: 0;
+  margin-top: 16px;
 }
