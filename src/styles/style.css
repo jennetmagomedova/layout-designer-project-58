@@ -257,3 +257,72 @@ main > * {
 .main-section h2 {
   margin-bottom: 30px;
 }
+
+footer {
+  padding: 165px 100px;
+}
+
+.subscr {
+  color:var(--white);
+  background-color: var(--dark);
+  padding: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscr label {
+  display: block;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.input-form {
+  display: flex;
+}
+
+.subscr input {
+  height: 50px;
+  width: 415px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: var(--white-semitransparent);
+  border: none;
+}
+
+.form-btn {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  background-color: var(--primary-color);
+  padding: 0;
+}
+
+.form-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+}
+
+.agreement {
+  font-size: 12px;
+}
+
+.agreement a {
+  color: var(--white);
+}
+
+.contacts {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+}
