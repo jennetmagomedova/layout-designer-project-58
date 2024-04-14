@@ -106,7 +106,7 @@ header .text-section {
   justify-content: space-between;
 }
 
-.column {
+.text-section .column {
   width: 540px;
 }
 
@@ -224,6 +224,7 @@ main > * {
 .main-section .column {
   flex: 1 0 max-content;
   vertical-align: middle;
+  height: 434px;
 }
 
 .main-section p {
