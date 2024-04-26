@@ -57,6 +57,7 @@ h3 {
 
 .question-background {
   position: relative;
+  z-index: 0;
 }
 
 .question-background::before {
@@ -68,8 +69,9 @@ h3 {
   width: 1440px;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   opacity: 0.1;
+  z-index: -1;
 }
 
 .light-background {
@@ -88,6 +90,7 @@ h3 {
 header {
   position: relative;
   padding: 100px 165px;
+  height: 714px;
 }
 
 header img {
@@ -112,7 +115,15 @@ header .text-section {
 
 
 .column p {
-  margin-top: 0;
+  margin: 0;
+}
+
+header .column p {
+  margin-bottom: 13px;
+}
+
+header .column p:last-of-type {
+  margin-bottom: 0;
 }
 
 .btn {
@@ -125,7 +136,10 @@ header .text-section {
   font-weight: bold;
   border: none;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
+  height: 49px;
+  width: 148px;
+  box-sizing: border-box;
 }
 
 main > * {
@@ -164,12 +178,16 @@ main > * {
 
 .navigation-card {
   width: 350px;
+  height: 348px;
   box-sizing: border-box;
   margin-bottom: 20px;
 }
 
+.navigation-card:nth-of-type(1),  .navigation-card:nth-of-type(2), .navigation-card:nth-of-type(3) {
+  height: 323px;
+}
+
 .link-card {
-  height: auto;
   padding: 24px;
   background-color: var(--light);
 }
@@ -258,16 +276,40 @@ main > * {
   margin-bottom: 30px;
 }
 
+#ikea-effect .column p {
+  height: 125px;
+}
+
+#premature-optimization .column p {
+  height: 75px;
+}
+
+#distortion-of-novelty .column p {
+  height: 100px;
+}
+
+#hyperbolic-depreciation .column p {
+  height: 157px;
+}
+
+#errors-in-planning .column p{
+  height: 139px;
+}
+
 footer {
-  padding: 165px 100px;
+  padding: 100px 165px;
 }
 
 .subscr {
   color:var(--white);
-  background-color: var(--dark);
-  padding: 55px;
+  background-color: var(--primary-dark);
+  padding: 0 55px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  height: 190px;
+  box-sizing: border-box;
 }
 
 .subscr label {
