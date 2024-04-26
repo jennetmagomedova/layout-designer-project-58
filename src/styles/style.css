@@ -21,6 +21,10 @@
   --blue: #1085c5;
 }
 
+html {
+  width: 1440px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -29,7 +33,6 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 1440px;
   padding: 0;
   margin: 0;
 }
@@ -362,10 +365,7 @@ footer h3 {
 .form-btn::before {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  inset:0;
   margin: auto;
   width: 24px;
   height: 24px;
