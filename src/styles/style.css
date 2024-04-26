@@ -1,11 +1,11 @@
 /** CSS STYLE **/
 @font-face {
-  font-family: 'Neucha';
+  font-family: Neucha;
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'OpenSans';
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
@@ -35,12 +35,13 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2em;
   margin: 0;
   padding: 0;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -83,6 +84,10 @@ h3 {
   color: var(--white);
 }
 
+.text-dark {
+  color: var(--dark);
+}
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -100,13 +105,13 @@ header img {
   right: -105px;
 }
 
-header .text-section {
-  margin-top: 200px;
-}
-
 .text-section {
   display: flex;
   justify-content: space-between;
+}
+
+header .text-section {
+  margin-top: 200px;
 }
 
 .text-section .column {
@@ -171,7 +176,7 @@ main > * {
 
 .navigation-section-header {
   font-size: 52px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2;
   margin: 0;
   padding: 0;
@@ -196,7 +201,7 @@ main > * {
 .navigation-number {
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1;
   margin: 0;
 }
@@ -235,6 +240,14 @@ main > * {
   background-color: var(--white);
 }
 
+.light-background h2 {
+  color: var(--dark);
+}
+
+.dark-background h2 {
+  color: var(--white);
+}
+
 .main-section {
   display: flex;
   column-gap: 30px;
@@ -254,7 +267,7 @@ main > * {
 
 .pre-header {
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2;
 }
 
@@ -269,7 +282,7 @@ main > * {
 
 .description {
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2;
 }
 
@@ -299,6 +312,10 @@ main > * {
 
 footer {
   padding: 100px 165px;
+}
+
+footer h3 {
+  color: var(--white);
 }
 
 .subscr {
