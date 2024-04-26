@@ -37,8 +37,8 @@ body {
   margin: 0;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   font-family: Neucha, cursive;
   font-weight: 400;
@@ -206,8 +206,8 @@ main > * {
   margin-bottom: 20px;
 }
 
-.navigation-card:nth-of-type(1),  
-.navigation-card:nth-of-type(2), 
+.navigation-card:nth-of-type(1),
+.navigation-card:nth-of-type(2),
 .navigation-card:nth-of-type(3) {
   height: 323px;
 }
