@@ -157,6 +157,7 @@ main > * {
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  border: 0px;
 }
 
 .navigation-section {
@@ -276,23 +277,23 @@ main > * {
   margin-bottom: 30px;
 }
 
-#ikea-effect .column p {
+#ikea-effect .text-section .column p {
   height: 125px;
 }
 
-#premature-optimization .column p {
+#premature-optimization .text-section .column p {
   height: 75px;
 }
 
-#distortion-of-novelty .column p {
+#distortion-of-novelty .text-section .column p {
   height: 100px;
 }
 
-#hyperbolic-depreciation .column p {
+#hyperbolic-depreciation .text-section .column p {
   height: 157px;
 }
 
-#errors-in-planning .column p{
+#errors-in-planning .text-section .column p {
   height: 139px;
 }
 
