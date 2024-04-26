@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -37,7 +37,9 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
   font-family: Neucha, cursive;
   font-weight: 400;
   font-style: normal;
@@ -65,7 +67,7 @@ h3 {
 }
 
 .question-background::before {
-  content:'';
+  content: "";
   background-image: url("../images/background.png");
   position: absolute;
   top: 0;
@@ -122,9 +124,20 @@ header .text-section {
   width: 540px;
 }
 
-
 .column p {
   margin: 0;
+}
+
+.video-section p {
+  display: block;
+  margin: 27px 0 30px;
+  height: 26px;
+}
+
+.main-section p {
+  padding: 0;
+  margin: 0;
+  width: 502px;
 }
 
 header .column p {
@@ -164,12 +177,6 @@ main > * {
   height: 146px;
 }
 
-.video-section p {
-  display: block;
-  margin: 27px 0 30px;
-  height: 26px;
-}
-
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   border: 0;
@@ -199,7 +206,9 @@ main > * {
   margin-bottom: 20px;
 }
 
-.navigation-card:nth-of-type(1),  .navigation-card:nth-of-type(2), .navigation-card:nth-of-type(3) {
+.navigation-card:nth-of-type(1),  
+.navigation-card:nth-of-type(2), 
+.navigation-card:nth-of-type(3) {
   height: 323px;
 }
 
@@ -269,12 +278,6 @@ main > * {
   height: 434px;
 }
 
-.main-section p {
-  padding: 0;
-  margin: 0;
-  width: 502px;
-}
-
 .pre-header {
   font-size: 24px;
   font-family: Neucha, cursive;
@@ -282,13 +285,12 @@ main > * {
 }
 
 .light-background .pre-header {
-  color:var(--dark-semitransparent);
+  color: var(--dark-semitransparent);
 }
 
 .dark-background .pre-header {
-  color:var(--white-semitransparent);
+  color: var(--white-semitransparent);
 }
-
 
 .description {
   font-size: 34px;
@@ -329,7 +331,7 @@ footer h3 {
 }
 
 .subscr {
-  color:var(--white);
+  color: var(--white);
   background-color: var(--primary-dark);
   padding: 0 55px;
   display: flex;
@@ -372,7 +374,7 @@ footer h3 {
 .form-btn::before {
   content: "";
   position: absolute;
-  inset:0;
+  inset: 0;
   margin: auto;
   width: 24px;
   height: 24px;
